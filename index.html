@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Menu encabezado -->
+     <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="">RAMSES</a>
+            </div>
+            <nav id="nav" >
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+     </div>
+
+     <!-- SECCION INICIO -->
+      <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="WAOS">
+            </div>
+            <h1>RAMSES AVIÑA</h1>
+            <h2>Estudiante de EVN - Aprendiz UI/UX</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100010194635832"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/?lang=es"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/aviña-juarez-cristian-ramses-01a237287/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+      </section>
+
+      <!-- Seccion SOBRE MI -->
+      <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Ramses Aviña.</span> A lo largo de mi formación, he tenido la oportunidad de explorar y aplicar diversas herramientas y tecnologías utilizadas en estos campos.Estoy emocionado de compartir contigo todo lo que he aprendido y seguir creciendo en este apasionante campo.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            24/11/2004
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            477-634-5519
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            ramsesavina17@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            244 BOSQUE ACUATICO, LEON GTO
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>ESTUDIANTE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>APPLE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LEER</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOGRAFIA</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a download="cv" href="cv 10.pdf">
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </a>
+        </div>
+    </section>
+
+       <!-- SECCION SKILLS -->
+        <section class="skills" id="skills">
+            <div class="contenido-seccion">
+                <h2>Skills</h2>
+                <div class="fila">
+                    <!-- Technical Skills -->
+                     <div class="col">
+                        <h3>Technical Skills</h3>
+                        <div class="skill">
+                            <span>Javascript</span>
+                            <div class="barra-skill">
+                                <div class="progreso javascript">
+                                    <span>10%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>HTML & CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Photoshop</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Illustrator</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Blender</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>15%</span>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <!-- PROFESSIONAL SKILLS -->
+                     <div class="col">
+                        <h3>Professional Skills</h3>
+                        <div class="skill">
+                            <span>Comunicaión</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Trabajo en Equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>99%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Dedicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Proyect Management</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>55%</span>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION CURRICULUM -->
+         <section id="curriculum" class="curriculum">
+            <div class="contenido-seccion">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educación</h3>
+                        <div class="item izq">
+                            <h4>Entornos Virtuales y Negocios Digitales</h4>
+                            <span class="casa">Universidad Tecnologica de Leon</span>
+                            <span class="fecha">2022 - 2024</span>
+                            <p>Dirigir e implementar proyectos de negocios digitales y soluciones de entornos virtuales a través del desarrollo de aplicaciones progresivas, herramientas de inteligencia en los negocios y desarrollo avanzado inmersivo / multisensorial considerando las necesidades del cliente, la interpretación de los datos y la normatividad aplicable para contribuir a la evolución digital de las organizaciones en el marco global.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Programación</h4>
+                            <span class="casa">Cetis77</span>
+                            <span class="fecha">2019 - 2022</span>
+                            <p>Desarrolla e instala software de aplicación utilizando programación estructurada, con almacenamiento persistente de los datos. Además, utiliza programación orientada a objetos para desarrollar software de aplicación con almacenamiento persistente de los datos. También, se encarga del desarrollo de aplicaciones web y móviles, así como de la administración de sistemas operativos, aplicaciones y servicios. Adicionalmente, desarrolla, administra y configura soluciones de e-learning y comercio electrónico.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Educacion Basica</h4>
+                            <span class="casa">Colegio Valladolid</span>
+                            <span class="fecha">2010 - 2019</span>
+                            <p>Lectura y escritura. Matemáticas básicas. Ciencias naturales. Historia y geografía. Habilidades de comunicación. Habilidades sociales. Tecnología de la información. Artes. Pensamiento crítico. Resolución de problemas. Gestión del tiempo. Trabajo en equipo. Independencia.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col derecha">
+                        <h3>Experiencia de Trabajo</h3>
+                        <div class="item der">
+                            <h4>Almacenista</h4>
+                            <span class="casa">Amazon</span>
+                            <span class="fecha">2023 - 2024</span>
+                            <p>Estibamiento de mercancia, realizacion de inventarios y llevar acabo rondines de seguridad en busca de vulnerabilidades.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Almacenista</h4>
+                            <span class="casa">Flecha Amarilla</span>
+                            <span class="fecha">2023 - 2023</span>
+                            <p>Realizamiento de inventarios, llevar a cabo transferencias de mercancia entre sucursales, facturar venta de piezas, llevar control de la area de embarque.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Asesor</h4>
+                            <span class="casa">Seco Soluciones</span>
+                            <span class="fecha">2022 - 2023</span>
+                            <p>Llevar a cabo la facturacion diaria de la cantidad de ventas, asesoramiento sobre productos de la tienda, entrega de material para compradores de mayoreo.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- SECCION PORTAFOLIO -->
+          <section id="portafolio" class="portafolio">
+            <div class="contenido-seccion">
+                <h2>PORTAFOLIO</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="img/p1.png" alt="">
+                        <div class="overlay">
+                            <h3>Pagina Berserk</h3>
+                            <p>sitio informativo</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p2.png" alt="">
+                        <div class="overlay">
+                            <h3>One Page</h3>
+                            <p>pagina demostrativa</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p3.png" alt="">
+                        <div class="overlay">
+                            <h3>Sitio de Venta</h3>
+                            <p>pagina promocional</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p4.png" alt="">
+                        <div class="overlay">
+                            <h3>PAgina Responsive</h3>
+                            <p>class project</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p5.png" alt="">
+                        <div class="overlay">
+                            <h3>Pagina Responsive</h3>
+                            <p>sitio de venta</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/p6.png" alt="">
+                        <div class="overlay">
+                            <h3>Pagina Responsive</h3>
+                            <p>class project</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!--SECCION CONTACTO-->
+          <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>CONTACTO</h2>
+                <div class="fila">
+                    <!-- Formuario -->
+                    <div class="col">
+                        <input type="text" placeholder="Tu nombre">
+                        <input type="text" placeholder="Numero telefonico">
+                        <input type="text" placeholder="Dirección de correo">
+                        <input type="text" placeholder="Tema">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <!-- mapa -->
+                     <div class="col">
+                        <img src="img/ubicacion.png" alt="">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Universidad Tecnologica de Leon
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile"></i>
+                                     Llama al: 477-634-5519
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Email: ramsesavina17@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                     </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- footer -->
+           <footer>
+                <a href="#inicio" class="arriba"><i class="fa-solid fa-angles-up"></i></a>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+           </footer>
+           <script src="script.js"></script>
+</body>
+</html>
